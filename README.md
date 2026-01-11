@@ -2,6 +2,7 @@
 
 В директории ddjvu_lib находиться исполняемый файл и динамические библиотеки, которые необходимы для выгрузки изображения из djvu/djv. Данные файлы являются частью инструментов для работы с данными форматами DjVuLibre. Так как ddjvu не умеет выгружать в jpg напрямую, пришлось выгружать для начала в tiff, а затем, с помощью Pillow конвертировать в jpg. Требования по библиотекам для установки в файле requirements.txt.
 
+------------------------------------------------------------------------------------------------
 
 Using this script, you can download the first pages of documents in the following formats: PDF, DJVU, DJV. There is a limitation - this script only works on Windows OS, as it was written specifically for it. Only the first pages are uploaded because I had to process a lot of files in the specified formats, and opening each file and viewing its contents takes too much time. It is much easier to download the first pages from files, since in most cases they are covers.
 
